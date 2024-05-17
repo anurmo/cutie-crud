@@ -16,11 +16,11 @@ const CuteList: React.FC<CuteListProps> = ({tasks }) => {
         </tr>
       </thead>
       <tbody>
-      
-        <tr className="bg-base-200">
-          <td>example</td>
+      {tasks.map(task)=>(
+        <tr key={task.id}>
+          <td>example1</td>
         
-          <td>example </td>
+          <td>example2</td>
         </tr>
       
       

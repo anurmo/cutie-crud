@@ -15,7 +15,7 @@ export default async function Home() {
         <AddTask />
      <button className="btn"> hello button </button>
      </div>
-   <CuteList />
+   <CuteList tasks = {tasks}/>
     </main>
   );
 }
